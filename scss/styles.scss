@@ -4,13 +4,38 @@
 
 }
 
-h2 {
-    color: red;
-    font-family: helvetica;
+p {
+    color: #020642;
 }
 
-h3 {
-    color: green;
-    font-style: bold;
-
+div {
+    color: black;
+    font-family: helvetica, sans-serif;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #737373;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+        background-color: #111111;
+}
+
+
+
