@@ -5,12 +5,16 @@
 }
 
 p {
-    color: #020642;
+    color: #018455;
+    font-family: helvetica,arial,sans-serif;
 }
 
 div {
     color: black;
     font-family: helvetica, sans-serif;
+}
+img {
+    float: left;
 }
 
 ul {
@@ -19,17 +23,20 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: black;
+    font-size: 6px;
 }
 
 li {
     float: left;
+    border-right: 1px solid #848484;
+
 }
 
 li a {
     display: block;
     color: #737373;
-    text-align: center;
-    padding: 10px;
+    text-align: left;
+    padding: 0.5px;
     text-decoration: none;
 }
 
@@ -37,5 +44,7 @@ li a:hover {
         background-color: #111111;
 }
 
-
+p a {
+    position: absolute;
+}
 
