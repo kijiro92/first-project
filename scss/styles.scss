@@ -25,12 +25,6 @@ ul {
     background-color: black;
     font-size: 6px;
 }
-
-.leftbar {
-    float: left;
-    border-right: 1px solid #848484;
-}
-
 .leftbar li {
     float: left;
     border-right: 1px solid #848484;
@@ -47,6 +41,9 @@ ul {
     border-right: 1px solid #848484;
     padding: 3,0,3,0;
     display: inline;
+}
+.caption {
+
 }
 
 li a {
