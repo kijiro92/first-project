@@ -26,14 +26,31 @@ ul {
     font-size: 6px;
 }
 
-li {
+.leftbar {
     float: left;
     border-right: 1px solid #848484;
+}
 
+.leftbar li {
+    float: left;
+    border-right: 1px solid #848484;
+    padding: 3,0,3,0;
+}
+.centerbar li {
+    clear: left;
+    border-right: 1px solid #848484;
+    padding: 3,0,3,0;
+    display: inline;
+}
+.rightbar li {
+    float: right;
+    border-right: 1px solid #848484;
+    padding: 3,0,3,0;
+    display: inline;
 }
 
 li a {
-    display: block;
+    display: inline;
     color: #737373;
     text-align: left;
     padding: 0.5px;
