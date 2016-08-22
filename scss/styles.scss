@@ -1,20 +1,16 @@
 #title {
     color: blue;
     font-family: verdana;
-
 }
 
 p {
-    color: #018455;
+    color: #00E000;
     font-family: helvetica,arial,sans-serif;
 }
 
 div {
     color: black;
     font-family: helvetica, sans-serif;
-}
-img {
-    float: left;
 }
 
 ul {
@@ -30,20 +26,29 @@ ul {
     border-right: 1px solid #848484;
     padding: 3,0,3,0;
 }
+.leftbar ul {
+    width: 450px;
+    text-align: right;
+    float: left;
+}
 .centerbar li {
     clear: left;
     border-right: 1px solid #848484;
     padding: 3,0,3,0;
     display: inline;
 }
+.centerbar ul {
+    width: 450px;
+}
 .rightbar li {
     float: right;
-    border-right: 1px solid #848484;
+    border-right: thin solid #848484;
     padding: 3,0,3,0;
     display: inline;
 }
-.caption {
-
+.rightbar ul {
+    width: 200px;
+    text-align: right;
 }
 
 li a {
@@ -58,7 +63,13 @@ li a:hover {
         background-color: #111111;
 }
 
-p a {
+.caption {
     position: absolute;
+    left: 350px;
+    top: 650px;
+    font-size: 24px
+}
+.background {
+    float: left;
 }
 
