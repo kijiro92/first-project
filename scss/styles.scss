@@ -1,16 +1,21 @@
+$ngreen: #00E000;
+$defont: helvetica, arial, sans-serif;
+$defborder: 1px solid #848484;
+$background: #111111;
+
 #title {
     color: blue;
-    font-family: verdana;
+    font-family: $defont;
 }
 
 p {
-    color: #00E000;
-    font-family: helvetica,arial,sans-serif;
+    color: $ngreen;
+    font-family: $defont;
 }
 
 div {
     color: black;
-    font-family: helvetica, sans-serif;
+    font-family: $defont;
 }
 
 ul {
@@ -18,7 +23,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: $background;
     font-size: 6px;
 }
     li {
@@ -31,7 +36,7 @@ ul {
         text-decoration: none;
 
             &:hover {
-            background-color: #111111;
+            background-color: $background;
         }
     }
 }
@@ -45,7 +50,7 @@ ul {
 
             li {
             float: left;
-            border-right: 1px solid #848484;
+            border-right: $defborder;
             padding: 3,0,3,0;
         }
     }
@@ -58,7 +63,7 @@ ul {
 
             li {
             clear: left;
-            border-right: 1px solid #848484;
+            border-right: $defborder;
             padding: 3,0,3,0;
             display: inline;
         }
@@ -73,7 +78,7 @@ ul {
 
             li {
             float: right;
-            border-right: thin solid #848484;
+            border-right: $defborder;
             padding: 3,0,3,0;
             display: inline;
         }
