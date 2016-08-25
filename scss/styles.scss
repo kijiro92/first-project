@@ -12,12 +12,33 @@ p {
     color: $ngreen;
     font-family: $defont;
 }
+.toptext {
+    font-family: #defont;
+    color: white;
+    font-size: 9px;
+    position: absolute;
+    left: 250px;
+    top: 5px;
 
+}
 div {
-    color: black;
+    font-color: black;
     font-family: $defont;
 }
-
+.topbar {
+    position: absolute;
+    top: 3px;
+    left: 250px;
+}
+.topbackground {
+    background-color: black;
+    background-size: 100%;
+}
+.buynow {
+    position: absolute;
+    top: 12px;
+    left: 328px;
+    }
 ul {
     list-style-type: none;
     margin: 0;
@@ -88,11 +109,11 @@ ul {
 .caption {
     position: absolute;
     left: 350px;
-    top: 650px;
+    top: 550px;
     font-size: 24px
 }
 
-.background {
-    float: left;
+.backgrndleft {
+    position: absolute;
+    top: 30px;
 }
-
