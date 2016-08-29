@@ -8,7 +8,7 @@ $defsize: 6px;
 $defadsize: 8px;
 $background: #111111;
 $discountbckgrnd: #222222;
-
+$topsize: 10px;
 
 #title {
     font-family: $defont;
@@ -17,9 +17,10 @@ $discountbckgrnd: #222222;
     font-family: $defont;
     float: left;
     padding-left: 281px;
-    font-size: $defadsize;
+    font-size: $topsize;
     }
 .topbar {
+    position: absolute;
 }
 .toptext2 {
     font-family: $defont;
