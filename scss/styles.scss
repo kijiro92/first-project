@@ -1,21 +1,114 @@
 $ngreen: #00E000;
+$ngray: #6C6C6C;
+$ndkgray: #333333;
+$nwhite: #F3F7FD;
 $defont: helvetica, arial, sans-serif;
 $defborder: 1px solid #848484;
+$defsize: 6px;
+$defadsize: 8px;
 $background: #111111;
+$discountbckgrnd: #222222;
+
 
 #title {
     font-family: $defont;
 }
-
-.caption {
+.toptext p {
+    font-family: $defont;
+    float: left;
+    padding-left: 281px;
+    font-size: $defadsize;
+    }
+.topbar {
+}
+.toptext2 {
+    font-family: $defont;
+    font-size: $defadsize;
+}
+.topbar2 {
+    position: absolute;
+}
+.leftbar ul {
+    padding-left: 281px;
+            li {
+                float: left;
+                display: inline-block;
+                padding: 5px 7px 8px 0px;
+                /*border-right:*/
+                font-family: $defont;
+                color: $ngray;
+                font-size: $defsize;
+                background-color: $background;
+            }
+        }
+.centerbar ul {
+            li {
+                float: left;
+                display: inline-block;
+                padding: 5px 7px 8px 0px;
+                /*border-right:*/
+                font-family: $defont;
+                color: $ngray;
+                font-size: $defsize;
+                background-color: $background;
+            }
+        }
+.rightbar ul {
+            li {
+                float: left;
+                display: inline-block;
+                padding: 5px 7px 8px 0px;
+                /*border-right:*/
+                font-family: $defont;
+                color: $ngray;
+                font-size: $defsize;
+                background-color: $background;
+            }
+        }
+.discount {
+    clear: left;
+    float: left;
+    width: 844px;
+    padding-top: 10px;
+    padding-left: 280px;
+    padding-bottom: 10px;
+    background-color: $discountbckgrnd;
+    font-family: $defont;
+    color: $nwhite;
+    font-size: $defadsize;
+    .getitlink {
+        display: inline-block;
+        color: $ngreen;
+        font-family: $defont;
+    }
+}
+.caption1 a {
+    position: absolute;
+    font-family: $defont;
+    font-size: 27px;
+    color: $ngreen;
+}
+.caption2 a {
+    position: absolute;
     font-family: $defont;
     color: $ngreen;
 }
-
-ul {
-    li {
-        a{
-
-        }
-    }
+.caption3 a {
+    position: absolute;
+    font-family: $defont;
+    color: $ngray;
+}
+.caption4 a {
+    position: absolute;
+    font-family: $defont;
+    color: $nwhite;
+}
+.BESTOF {
+    position: absolute;
+    top: 400px;
+    left: 290px;
+}
+.backgrnd {
+    clear: left;
+    margin: 0px;
 }
