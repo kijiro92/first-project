@@ -13,57 +13,87 @@ $topsize: 10px;
 #title {
     font-family: $defont;
 }
-.toptext p {
-    font-family: $defont;
-    float: left;
-    padding-left: 281px;
-    font-size: $topsize;
-    }
-.topbar {
+body {
+    background-color: $background;
+
+}
+.razer1 {
     position: absolute;
+    top: 0px;
+    left: 294px;
 }
-.toptext2 {
-    font-family: $defont;
-    font-size: $defadsize;
-}
-.topbar2 {
+.razer2 {
     position: absolute;
+    top: 0px;
+    left: 509px;
 }
-.leftbar ul {
+.toptext ul {
     padding-left: 281px;
             li {
                 float: left;
-                display: inline-block;
-                padding: 5px 7px 8px 0px;
-                /*border-right:*/
                 font-family: $defont;
-                color: $ngray;
-                font-size: $defsize;
+                display: inline-block;
+                padding-top: 0px;
+                padding-left: 5px;
+                padding-right: 130px;
+                font-size: $topsize;
+                color: $nwhite;
                 background-color: $background;
             }
         }
-.centerbar ul {
-            li {
-                float: left;
-                display: inline-block;
-                padding: 5px 7px 8px 0px;
-                /*border-right:*/
-                font-family: $defont;
-                color: $ngray;
-                font-size: $defsize;
-                background-color: $background;
+.buynow1 {
+    position: absolute;
+    left: 377px;
+    top: 13px;
+}
+.buynow2 {
+    position: absolute;
+    left: 540px;
+    top: 13px;
+}
+.allbar {
+    clear: left;
+    width: 844px;
+    background: $background;
+    .leftbar ul {
+        padding-left: 281px;
+                li {
+                    float: left;
+                    display: inline-block;
+                    padding: 0px 3px 0px 4px;
+                    margin-top: 3px;
+                    border-right: $defborder;
+                    font-family: $defont;
+                    color: $ngray;
+                    font-size: $defsize;
+                    background-color: $background;
+                }
             }
-        }
-.rightbar ul {
-            li {
-                float: left;
-                display: inline-block;
-                padding: 5px 7px 8px 0px;
-                /*border-right:*/
-                font-family: $defont;
-                color: $ngray;
-                font-size: $defsize;
-                background-color: $background;
+    .centerbar ul {
+                li {
+                    float: left;
+                    display: inline-block;
+                    padding: 0px 3px 0px 4px;
+                    margin-top: 3px;
+                    border-right: $defborder;
+                    font-family: $defont;
+                    color: $ngray;
+                    font-size: $defsize;
+                    background-color: $background;
+                }
+            }
+    .rightbar ul {
+                li {
+                    float: left;
+                    display: inline-block;
+                    padding: 0px 3px 0px 4px;
+                    margin-top: 3px;
+                    border-right: $defborder;
+                    font-family: $defont;
+                    color: $ngray;
+                    font-size: $defsize;
+                    background-color: $background;
+                }
             }
         }
 .discount {
@@ -71,7 +101,7 @@ $topsize: 10px;
     float: left;
     width: 844px;
     padding-top: 10px;
-    padding-left: 280px;
+    padding-left: 285px;
     padding-bottom: 10px;
     background-color: $discountbckgrnd;
     font-family: $defont;
@@ -88,28 +118,47 @@ $topsize: 10px;
     font-family: $defont;
     font-size: 27px;
     color: $ngreen;
+    left: 376px;
+    top: 515px;
 }
 .caption2 a {
     position: absolute;
+    top: 690px;
+    left: 420px;
     font-family: $defont;
+    font-size: 20px;
     color: $ngreen;
 }
 .caption3 a {
     position: absolute;
+    top: 120px;
+    left: 150px;
     font-family: $defont;
     color: $ngray;
 }
 .caption4 a {
     position: absolute;
+    left: 740px;
+    top: 120px;
     font-family: $defont;
     color: $nwhite;
 }
 .BESTOF {
     position: absolute;
-    top: 400px;
+    top: 260px;
     left: 290px;
 }
 .backgrnd {
-    clear: left;
-    margin: 0px;
+    float: left;
+    display: block;
+}
+.squiggle {
+    position: absolute;
+    left: 900px;
+    top: 10px;
+}
+.play {
+    position: absolute;
+    left: 550px;
+    top: 670px;
 }
